@@ -1,18 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Bakbak+One&display=swap');
 
-.bakbak-one-regular-64 {
+.bakbak-one-regular{
     font-family: "Bakbak One", sans-serif;
     font-weight: 400;
     font-style: normal;
     line-break: 1;
+}
+  
+.fs-64{
     font-size: 64px;
 }
-.bakbak-one-regular-20 {
-    font-family: "Bakbak One", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    line-break: 1;
+
+.fs-20{
     font-size: 20px;
 }
 
-  
+.h100vh{
+    height: 100vh;
+}

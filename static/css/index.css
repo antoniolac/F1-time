@@ -1,1 +1,9 @@
 @import "logo.css";
+@import "commons.css";
+@import "black-box.css";
+@import "light.css";
+
+body{
+    margin: 0;
+    padding: 0;
+}

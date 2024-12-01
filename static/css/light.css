@@ -1,0 +1,19 @@
+.light-gray{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    margin: 5px;
+    background-color: #D9D9D9;
+}
+
+.light-red{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    margin: 5px;
+    background-color: #F00;
+}
+
+.transition{
+    transition: all 2s;
+}

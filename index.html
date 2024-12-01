@@ -8,23 +8,59 @@
     <link rel="stylesheet" href="static/css/index.css">
 </head>
 <body>
-    <header class="d-flex flex-column justify-content-center align-items-center">
-        <figure class="logo">
-            <img src="static/images/F1-logo.png" alt="">
-        </figure>
-        <h1 class="bakbak-one-regular-64">Test dei riflessi F1</h1>
-    </header>
-    <main>
-        <div class="regole">
-            <p>Premi il tasto “Start,, per avviare l’accensione dei semafori:</p>
-            <ul>
-                <li>Dopo un tempo casuale, si accendono le ultime due righe della prima colonna</li>
-                <li>In seguito si accenderanno le altre dopo 2 secondi</li>
-                <li>L’ultima si accenderà dopo un tempo casuale</li>
-            </ul>
-            <p>Quando si sarà rispento il semaforo, ripremere il bottone nel minor tempo possibile</p>
-        </div>
-    </main>
-    
+    <div class="hero d-flex flex-column justify-content-center align-items-center">
+        <header class="d-flex flex-column justify-content-center align-items-center">
+            <figure class="logo">
+                <a href="https://www.formula1.com/" target="_blank"><img src="static/images/F1-logo.png" alt=""></a>
+            </figure>
+            <h1 class="bakbak-one-regular fs-64">Test dei riflessi F1</h1>
+        </header>
+        <main>
+            <section class="regole">
+                <p>Premi il tasto “Start,, per avviare l’accensione dei semafori:</p>
+                <ul>
+                    <li>Dopo un tempo casuale, si accendono le ultime due righe della prima colonna</li>
+                    <li>In seguito si accenderanno le altre dopo 2 secondi</li>
+                    <li>L’ultima si accenderà dopo un tempo casuale</li>
+                </ul>
+                <p>Quando si sarà rispento il semaforo, ripremere il bottone nel minor tempo possibile</p>
+            </section>
+            <div class="semaforo d-flex flex-row justify-content-center align-items-center">
+                <div class="black-box">
+                    <div class="light-gray transition"></div>
+                    <div class="light-gray transition"></div>
+                    <div class="light-gray transition"></div>
+                    <div class="light-gray transition"></div>
+                </div>
+                <div class="black-box">
+                    <div class="light-gray transition"></div>
+                    <div class="light-gray transition"></div>
+                    <div class="light-gray"></div>
+                    <div class="light-gray"></div>
+                </div>
+                <div class="black-box">
+                    <div class="light-gray transition"></div>
+                    <div class="light-gray transition"></div>
+                    <div class="light-gray transition"></div>
+                    <div class="light-gray transition"></div>
+                </div>
+                <div class="black-box">
+                    <div class="light-gray transition"></div>
+                    <div class="light-gray transition"></div>
+                    <div class="light-gray transition"></div>
+                    <div class="light-gray transition"></div>
+                </div>
+                <div class="black-box">
+                    <div class="light-gray transition"></div>
+                    <div class="light-gray transition"></div>
+                    <div class="light-gray transition"></div>
+                    <div class="light-gray transition"></div>
+                </div>
+            </div>
+            <section>
+                <button>Start</button>
+            </section>
+        </main>
+    </div>
 </body>
 </html>
