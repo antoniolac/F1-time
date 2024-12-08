@@ -1,7 +1,11 @@
+@import "hero.css";
 @import "logo.css";
 @import "commons.css";
+@import "regole.css";
+@import "semaforo.css";
 @import "black-box.css";
 @import "light.css";
+@import "bottone.css";
 
 body{
     margin: 0;

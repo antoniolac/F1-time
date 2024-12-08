@@ -1,4 +1,5 @@
 .logo img{
     width: 334px;
-    height: 151px;
+    height: auto;
+    margin-top: 42px;
 }

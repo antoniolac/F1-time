@@ -8,15 +8,14 @@
     <link rel="stylesheet" href="static/css/index.css">
 </head>
 <body>
-    <div class="hero d-flex flex-column justify-content-center align-items-center">
+    <div class="hero">
         <header class="d-flex flex-column justify-content-center align-items-center">
             <figure class="logo">
                 <a href="https://www.formula1.com/" target="_blank"><img src="static/images/F1-logo.png" alt=""></a>
             </figure>
             <h1 class="bakbak-one-regular fs-64">Test dei riflessi F1</h1>
         </header>
-        <>
-            <section class="regole">
+            <section class="regole bakbak-one-regular fs-20">
                 <p>Premi il tasto “Start,, per avviare l’accensione dei semafori:</p>
                 <ul>
                     <li>Dopo un tempo casuale, si accendono le ultime due righe della prima colonna</li>
@@ -25,7 +24,7 @@
                 </ul>
                 <p>Quando si sarà rispento il semaforo, ripremere il bottone nel minor tempo possibile</p>
             </section>
-            <div class="semaforo d-flex flex-row justify-content-center align-items-center">
+            <div class="semaforo">
                 <div class="black-box">
                     <div class="light-gray transition"></div>
                     <div class="light-gray transition"></div>
@@ -58,8 +57,9 @@
                 </div>
             </div>
             <form action="" method="get">
-                <input type="button" name="btn" class="bakbak-one-regular fs-40" id="guessBtn" value="Start">
+                <input type="button" name="btn" class="bottone transition bakbak-one-regular fs-40" id="play" value="Start">
             </form>
+            <h5 class="bakbak-one-regular fs-32">tempo</h5>
         </main>
     </div>
 </body>
